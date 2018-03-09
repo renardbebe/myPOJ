@@ -1,4 +1,4 @@
-\> 3486 A Simple Problem with Integers
+\> 3486 A Simple Problem with Integers（经典题）
 
 ​	线段树
 
@@ -22,10 +22,10 @@
 
 ​	线段树+离散化
 
-\> 1457Power Network
-
-​	网络流
-
-\> 1459 Power Network
+\> 1459 Power Network（经典题）
 
 ​	网络流 最大流EK算法
+
+\> 1062 昂贵的聘礼（经典题）
+
+​	最短路：Dijkstra / Bellman_ford / SPFA
