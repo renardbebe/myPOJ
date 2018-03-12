@@ -1,2 +1,2 @@
 # myPOJ
-PKU JudgeOnline Accepted Source Code.
+PKU JudgeOnline Accepted Source Code .
