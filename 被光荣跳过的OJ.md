@@ -26,6 +26,10 @@
 
 ​	网络流 最大流EK算法
 
+\> 2195 Going Home
+
+​	最小费用最大流
+
 \> 1062 昂贵的聘礼（经典题）
 
 ​	最短路：Dijkstra / Bellman_ford / SPFA
