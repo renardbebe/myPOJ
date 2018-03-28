@@ -42,6 +42,10 @@
 
 ​	凸包（计算几何问题）
 
+\> 2187 Beauty Contest
+
+​	凸包
+
 \> 2774 Long Long Message
 
 ​	后缀数组
