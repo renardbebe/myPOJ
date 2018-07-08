@@ -26,19 +26,19 @@ int main () {
 		}
 		memset(dp, 0, sizeof(dp));
 		dp[0] = 1;
-		int maxn = 0;
+		int maxValue = 0;
 		for(int i = 1; i <= n; i++) {
-			for(int j = maxn; j >= 0; j--) {
+			for(int j = maxValue; j >= 0; j--) {
 				if(dp[j]) {
 					for(int k = 1; k <= a[i].number; k++) {
 						int tmp = j + k * a[i].value;
 						if(tmp > sum) continue;
 						dp[tmp] = 1;
-						maxn = max(maxn, tmp);
+						maxValue = max(maxValue, tmp);
 					}
 				}
 			}
 		}
-		cout << maxn << endl;
+		cout << maxValue << endl;
 	}
 }

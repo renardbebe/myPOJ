@@ -28,7 +28,7 @@ int main () {
 		char s1[N], s2[N];
 		scanf("%d%s", &len1, s1+1);  // 不从首地址开始写，从数组下标是1的位置开始写（首位空出来）
         scanf("%d%s", &len2, s2+1);
-		// cin >> len1 >> s1 >> len2 >> s2;
+
 		dp[0][0] = 0;
 		for(int i = 1; i <= len1; i++)
 			dp[i][0] = dp[i-1][0] + match[s1[i]][' '];

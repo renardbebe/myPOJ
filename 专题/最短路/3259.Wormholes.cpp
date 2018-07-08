@@ -30,7 +30,7 @@ int E, V;
 
 bool Bellman_Ford(int s) {
 	for(int i = 1; i <= V; i++) dis[i] = ((i == s) ? 0 : INF);
-	for(int i = 1; i <= V; i++) {
+	for(int i = 1; i <= V; i++) {  // 对所有边松弛|V|-1次，第V次循环检查负权回路
 		for(int j = 0; j < E; j++) {
 			Edge e = edge[j];
 			if(dis[e.end] > dis[e.start] + e.weight) {
