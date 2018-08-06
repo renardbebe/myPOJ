@@ -18,7 +18,9 @@ int main () {
 	int n, m;
 	while(cin >> n >> m) {
 		if(!n && !m) break;
+		// init
 		for(int i = 0; i < n; i++) father[i] = i;
+
 		for(int i = 0; i < m; i++) {
 			int k;
 			cin >> k;

@@ -35,10 +35,27 @@
   * SPFA
 * 注意的坑：
   * 1 ≤ *X,Y* ≤ 10000，并没有确定 *X* 和 *Y* 之间的大小关系
+
   * 字符串不支持在前部添加字符，会出现编译错误
+
   * 用 *getchar* 读取 ‘*\n*‘ 出现 *wrong answer* 后可以试试 *getline(cin, s)* 
+
   * *int* 相加的结果可能为 *long long*
+
   * 遇到大数乘法、求幂，结果为整数的，可以尝试使用 *double* 直接进行运算
+
+  * 找中位数：
+
+    * $nth\_element()$
+
+    * 头文件：$\#\ include<algorithm>$
+
+    * $nth\_element(first, nth, last, cmp)$
+
+      求$[first, last]​$这个区间中第 $n​$ 大小的元素，按 $cmp​$ 函数的方式比较
+
+    * 中位数：$nth\_element(a, a+n/2, a+n)$   $cout << a[n/2]; $ 
+
   * 一个数的位数 $digit(n) =\sum ^{n} _{i=1} (log_{10}(i))+1$
 
 

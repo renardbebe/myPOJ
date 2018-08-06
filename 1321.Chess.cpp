@@ -6,7 +6,7 @@
 using namespace std;
 
 #define N 10
-int n, k, cnt;
+int n, k, cnt;  // k <= n ! 可能存在有空行不放棋子的情况
 char table[N][N];
 int row[N], col[N], visit[N][N];
 
